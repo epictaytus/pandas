@@ -70,7 +70,7 @@ types-PyMySQL
 types-pytz
 types-PyYAML
 types-setuptools
-nbconvert>=6.4.5
+nbconvert>=7.17.0
 nbsphinx
 pandoc
 ipywidgets
@@ -86,3 +86,4 @@ dataframe-api-compat>=0.1.7
 sphinx-toggleprompt
 typing_extensions; python_version<"3.11"
 tzdata>=2022.1
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
